@@ -34,6 +34,7 @@
 			overflow: visible;
 			background-color: #444444;
 			display: flex;
+			flex-wrap: wrap;
 			justify-content: center; /*menüpontok középre igazítása*/
 			padding:0;
 			top: 0;
@@ -47,7 +48,7 @@
 			font-size: 20px;
 			color: white;
 			text-align: center;
-			padding: 20px 60px;
+			padding: 20px 30px;
 			text-decoration: none; /*link aláhúzás eltávolítása*/
 			}
 	/*legördülő menü konténere*/
@@ -72,7 +73,7 @@
 			border: none; /*keret eltávolítása*/
 			outline: none; /*kiemelés eltávolítása*/
 			color: white;
-			padding: 20px 60px;
+			padding: 20px 30px;
 			background-color: inherit; /*navbar háttérszín öröklése*/
 			font-family: inherit;
 			margin: 0;
