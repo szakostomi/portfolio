@@ -205,12 +205,27 @@ különféle optikai és induktív érzékelőket, illetve nyomásérzékelőt i
 <img class="kep" src="erzekelo.jpg">
 </p><hr>
 <p>
-A következő téma amít meg szeretnék említeni mindenképpen, az a PLC (Programmable Logic Controller) programozás, illetve a bemenetek és kimenetek bekötése. 
+A következő téma amít meg szeretnék említeni mindenképpen, az a PLC (Programmable Logic Controller) programozás, a bemenetek és kimenetek bekötése... 
 Ha választanom kellene, talán ez a kedvencem. Megemlíteném itt a terepi buszokat, a soros kommunikácót. Ha már kommunikáció....többféle kommunikációval is megismerkedtem 
 tanulmányaim során, például az I2C, az SPI, amiket inkább rövid távolságon használunk. Ezeknél van egy közös órajel is, ami a kommunikáció ütemét adja, így ezek a szinkron 
 kommunikáció fajtájába tartoznak. Az aszinkron kommunikáció, ahol nincs közös órajel, például az UART. Itt a kommunikáció elejét egy START, míg a végét egy STOP bit jelzi. 
 Megkülönböztetünk továbbá szimplex(egyirányú), félduplex(vátakozó kétirányú) és duplex(egyidejű kétirányú) kommunikációt. Ha már PLC-ről beszélek, előjön az RS kommunikáció, 
-a HMI(Human-Machine Interface)-t RS kommunikáció keresztül kötjük öszze a PLC-vel.
+a HMI(Human-Machine Interface)-t RS kommunikáció keresztül kötjük öszze a PLC-vel.<br><br>
+	Tanulmányaim során legfőképpen 2 gyártú plc termékével dolgoztam, az egyik az OMRON, ennél a gyártmánynál a CX-programmerben programoztam nagyon soksféle dolgot.
+	Ha egyet választanom kellene, talán a lift vezérlése volt számomra a legérdekesebb és legizgalmasabb. A következő képeken ez a programom egy részlete látható.
+</p>
+<p class="kep-sor">
+<img class="kep" src="lift1.jpg">
+</p>
+<p class="kep-sor">
+<img class="kep" src="lift2.jpg">
+</p>
+<p>
+A másik gyártmány pedig a Siemens, ennél a gyártónál a LOGOSoft! programban dolgoztam. A következő képen a parkolóház vezérlése projektem látható. Lekezeltem a be és kileéptető 
+	sorompót, illetve hozzá visszajelző lámpákat, ami a parkolóház telítettségéről ad visszajelzést. Amennyiben a parkolók megtelltek, a beléptető sorompó nem enged be több autót.
+</p>
+<p class="kep-sor">
+<img class="kep" src="logosoft.jpg">
 </p>
 </div>
 </main>
