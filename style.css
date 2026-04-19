@@ -1,4 +1,4 @@
-	/*logo alatti cím*/
+/*logo alatti cím*/
 			.logoszov{
 				display: flex;
 				flex-direction: column;
@@ -211,7 +211,7 @@
 				}
 				.navbar a,
 				.dropdown .dropbtn {
-					padding: 15px 0px;
+					padding: 15px 0;
 					width:100%;
 					text-align:center;
 				}
