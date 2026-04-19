@@ -34,7 +34,6 @@
 			overflow: visible;
 			background-color: #444444;
 			display: flex;
-			flex-wrap: wrap;
 			justify-content: center; /*menüpontok középre igazítása*/
 			padding:0;
 			top: 0;
@@ -48,7 +47,7 @@
 			font-size: 20px;
 			color: white;
 			text-align: center;
-			padding: 20px 30px;
+			padding: 20px 60px;
 			text-decoration: none; /*link aláhúzás eltávolítása*/
 			}
 	/*legördülő menü konténere*/
@@ -73,12 +72,11 @@
 			border: none; /*keret eltávolítása*/
 			outline: none; /*kiemelés eltávolítása*/
 			color: white;
-			padding: 20px 30px;
+			padding: 20px 60px;
 			background-color: inherit; /*navbar háttérszín öröklése*/
 			font-family: inherit;
 			margin: 0;
 			display:block;
-			flex: 1;
 			}
 	/*effektek a navbar és a legördülő gombokra*/
 			.navbar a:hover, 
@@ -210,10 +208,11 @@
 				.navbar {
 					flex-direction: column;
 					align-items:stretch;
+					flex-wrap: wrap;
 				}
 				.navbar a,
 				.dropdown .dropbtn {
-					padding: 15px 0;
+					padding: 15px 10px;
 					width:100%;
 					text-align:center;
 				}
