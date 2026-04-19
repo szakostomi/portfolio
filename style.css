@@ -78,6 +78,7 @@
 			font-family: inherit;
 			margin: 0;
 			display:block;
+			flex: 1;
 			}
 	/*effektek a navbar és a legördülő gombokra*/
 			.navbar a:hover, 
